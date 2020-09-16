@@ -14,6 +14,8 @@
   - Ariel
 - Latency 32bit, Latency 64bit
 
+- Let us know if you're falling behind
+
 ## Part 3
 - Team 1:
   - Christian
