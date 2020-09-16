@@ -3,10 +3,33 @@
 - Team members:
 
 ## Part 2
-- Team members:
+- Team 1:
+  - Christian
+  - Kyle
+  - Miguel
+- Latency 2bit, Latency 8bit, Latency 16bit
+
+- Team 2:
+  - Jessmer
+  - Ariel
+- Latency 32bit, Latency 64bit
 
 ## Part 3
-- Team members:
+- Team 1:
+  - Christian
+  - Kyle
+  - Miguel
+
+- Team 2:
+  - Jessmer
+  - Ariel
 
 ## Part 4
-- Team members:
+- Team 1:
+  - Christian
+  - Kyle
+  - Miguel
+
+- Team 2:
+  - Jessmer
+  - Ariel
