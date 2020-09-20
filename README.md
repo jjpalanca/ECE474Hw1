@@ -7,7 +7,7 @@ Mux2x1 - Ariel
 Add -  Kyle
 Comp
 Mul - Christian
-Reg - REG
+Reg - JEssmer
 SHL
 SHR - 
 SUB - Miguel
