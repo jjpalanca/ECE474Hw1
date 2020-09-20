@@ -1,7 +1,7 @@
 module MUX2x1#(parameter WIDTH = 2)(a, b, sel, d);
 	
 	input [WIDTH-1:0] a, b;
-    input select;
+    input sel;
     output reg [WIDTH-1:0] d;
 
     always @(sel, a, b) begin
