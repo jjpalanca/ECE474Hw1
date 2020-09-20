@@ -3,22 +3,22 @@ module COMP #(parameter WIDTH = 2)(a, b, gt, lt, eq);
 	output reg gt, lt, eq; 
 	
 	always @(a, b) begin
-		if(a > b)
+		if(a > b) begin
 			lt <= 0;
 			gt <= 1;
 			eq <= 0;
 		end
-		else if(a < b)
+		else if(a < b) begin
 			lt <= 1;
 			gt <= 0;
 			eq <= 0;
 		end
-		else
+		else begin
 			lt <= 0;
 			gt <= 0;
 			eq <= 1;
 		end
 	end
-end module
+endmodule
 
 // COMP needs to be tested

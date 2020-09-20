@@ -5,6 +5,6 @@ module ADD #(parameter WIDTH = 2)(a, b, sum);
 	always @(a, b) begin
 		sum <= a+b;
 	end
-end module
+endmodule
 
 // ADD needs to be tested

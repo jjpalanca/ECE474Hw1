@@ -4,13 +4,13 @@ module REG #(parameter WIDTH = 2)(Clk, Rst, d, q);
 	output reg [WIDTH-1:0] q; 
 	
 	always @(posedge Clk) begin
-		if(Rst)
+		if(Rst) begin
 			q <= 0;
 		end
-		else
+		else begin
 			q <= d;
 		end
 	end
-end module
+endmodule
 
 // REG needs to be tested

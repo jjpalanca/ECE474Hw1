@@ -5,6 +5,6 @@ module SUB #(parameter WIDTH = 2)(a, b, diff);
 	always @(a, b) begin
 		diff <= a - b;
 	end
-end module
+endmodule
 
 // SUB needs to be tested

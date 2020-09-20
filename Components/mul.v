@@ -5,6 +5,6 @@ module MUL #(parameter WIDTH = 2)(a, b, prod);
 	always @(a, b) begin
 		prod <= a * b;
 	end
-end module
+endmodule
 
 // MUL needs to be tested
