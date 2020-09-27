@@ -24,12 +24,13 @@ module Circuit1(a,b,c,z,x, Clk, Rst);
 input Clk, Rst; //used by registers
 input [7:0] a, b, c; //8 bit Int
 
-output reg [7:0] z; //8 bit Int
-output reg [15:0]x; //16 bit Int
+output [7:0] z; //8 bit Int
+output [15:0]x; //16 bit Int
 
 wire [7:0] d, e; //8 bit Int
 wire [15:0]f, g; //16 bit Int
 wire [15:0]xwire; //16 bit Int
+
 
 ADD #(.WIDTH(8))ADD0(a,b,d);//d = a + b, use 8 bit
 ADD #(.WIDTH(8))ADD1(a,c,e);//e = a + c, use 8 bit
