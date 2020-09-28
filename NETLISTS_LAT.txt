@@ -1,1 +1,4 @@
-Under Construction
+474a_circuit1.txt: 17.106 8.547
+474a_circuit2.txt: 32.562 6.562
+474a_circuit3.txt: 39.382 7.981
+474a_circuit4.txt: 82.125 5.32
